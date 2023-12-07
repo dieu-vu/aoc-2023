@@ -1,3 +1,4 @@
+#Part 1 Day 3 2023
 file = open("input3.txt", "r")
 lines = file.readlines()
 
@@ -73,6 +74,5 @@ for i in range(len(lines)):
     print(sum_line)
     sum_numbers += sum_line
 print(sum_numbers)
-
 
 
